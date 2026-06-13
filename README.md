@@ -81,7 +81,9 @@ pip install torch torchvision pillow scikit-learn matplotlib seaborn numpy
 5. To skip retraining, run the load cell after Step 5 and upload the `.pth` files from the `/models` folder
 
 ### Pretrained Models
-Pretrained model weights are available in the `/models` folder:
-- `joint_model.pth` — joint multi-task model
-- `baseline_rf.pth` — real/fake baseline
-- `baseline_t.pth` — transformation baseline
+
+Due to file size constraints, pretrained model weights are not included in this repository.
+To use pretrained weights, run the notebook top to bottom — training takes approximately
+90 minutes on a T4 GPU in Google Colab.
+
+Alternatively, please contact me to send the models 
